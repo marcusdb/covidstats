@@ -118,7 +118,7 @@ function parseRawData(countryRawData: CountryRawData): CovidCountry {
     subRegions: {}
   };
   let subRegion: CovidCountrySubRegion = {
-    name: "country",
+    name: "total",
     lat: 0,
     long: 0,
     data: {}
